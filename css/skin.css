@@ -1,0 +1,145 @@
+@media(prefers-color-scheme: light){
+body {
+
+background-color: white;;
+
+
+}
+
+header {
+    background-image: url(../src/halo-infinite-cover.jpeg);
+
+
+}
+
+nav {
+
+background-color:rgba(255,255,255,0.4);
+}
+
+nav ul li a {
+color: black;
+}
+
+nav .mobile .header {
+    background-color: rgba(255,255,255,0.4);
+    
+  }
+  nav .mobile .header a {
+    color: black;
+ 
+  }
+
+  nav .mobile .header #bmenu {
+ 
+    color: black;
+  
+  }
+  nav .mobile .links {
+   
+    background-color: white;
+  }
+
+  nav .mobile .links a {
+    
+    color: black;
+  }
+
+  #banner {
+    font-size: 1.9em;
+ background-color: white;
+    color: black;
+ 
+  }
+
+  h2::before {
+    
+    background-color: rgb(143, 209, 45);
+   
+  }
+  .green-button {
+   
+    background-color: rgb(143, 209, 45);
+
+    
+    color: black;
+  
+  }
+  .green-link {
+   
+  
+    color: rgb(143, 209, 45);
+   
+  }
+
+
+  .green-link::before {
+    
+    background-color: rgb(143, 209, 45);
+  }
+
+
+  h3 {
+   
+    color: black;
+  }
+  
+  #videos {
+
+    color: black;
+  }
+
+  #get-the-game {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    }
+  #get-the-game h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    }
+
+    footer {
+
+      
+        background-image: url(../src/master-chief.jpg);
+        
+        }
+
+
+
+
+  @media screen and (max-width: 696px) { 
+
+
+  .info {
+
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.894);
+    color: rgb(0, 0, 0);
+      }
+
+      #get-the-game {
+        text-align: center;
+        padding: 20px 0;
+        color: rgb(0, 0, 0);
+        }
+      #get-the-game h2 {
+        text-align: center;
+        padding: 20px 0;
+        color: rgb(0, 0, 0);
+        }
+
+  }
+
+
+}
+
+
+
+@media(prefers-color-scheme: dark){
+
+}
